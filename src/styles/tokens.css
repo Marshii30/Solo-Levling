@@ -1,0 +1,14 @@
+:root{
+  --neo-primary:#00E6FF;
+  --neo-secondary:#AC6CFF;
+  --accent:#19FFA9;
+  --surface:rgba(16,20,28,0.72);
+  --surface-strong:rgba(16,20,28,0.92);
+  --border:rgba(255,255,255,0.12);
+  --text:#EAF6FB;
+  --r-lg:20px; --r-xl:28px;
+  --glass-blur:18px;
+}
+@media (prefers-color-scheme: light){
+  :root{ --surface:rgba(240,244,248,0.75); --text:#0a1015; --border:rgba(0,0,0,0.12); }
+}
