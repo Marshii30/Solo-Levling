@@ -27,7 +27,7 @@ export default function TaskPage({ type }) {
   // Idle check: trigger system warning if no task started
   useEffect(() => {
     if (!taskStarted && !allDone) {
-      const t = setTimeout(() => setWarning(true), 4000); // ⚡ 4 seconds
+      const t = setTimeout(() => setWarning(true), 2000); // ⚡ 2 seconds
       return () => clearTimeout(t);
     }
   }, [taskStarted, allDone]);
